@@ -4,7 +4,7 @@ The data set can be downloaded from [https://www.kaggle.com/datasets/plameneduar
 This data needs to put as show in this tree directory => <br>
 dataset <br>
 &nbsp;|->train->covid <br>
- &nbsp;&nbsp;&nbsp;||->non_covid <br>
+ &nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;|->non_covid <br>
  &nbsp;|->validation->covid <br>
- &nbsp;&nbsp;&nbsp;|->non_covid <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|->non_covid <br>
 Then by classification algorithm, we can create a model which detects COVID19-infection status <br>
